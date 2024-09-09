@@ -1,1 +1,35 @@
-/* ini css */  
+/* ini css */
+
+.main-header{
+    text-align: center;
+}
+
+.selection-conten{
+    display: flex;
+    flex-direction: column;
+}
+
+.selection-btn{
+    height: 32px;
+    border: none;
+    border-radius: 9px;
+}
+
+.aqua-color{
+    background-color: aqua;
+}
+
+.aquamarine-color{
+    background-color: white;
+}
+
+.luas-segitiga-header{
+    border: 1px solid;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin: 0;
+    background: wheat;
+    text-align: center;
+    border: none;
+    border-radius: 9px;
+}
