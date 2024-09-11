@@ -16,7 +16,7 @@
 }
 
 .aqua-color{
-    background-color: aqua;
+    background-color:chartreuse;
 }
 
 .aquamarine-color{
@@ -28,8 +28,46 @@
     padding-top: 35px;
     padding-bottom: 35px;
     margin: 0;
-    background: wheat;
+    background: rgb(2, 225, 232);
     text-align: center;
     border: none;
     border-radius: 9px;
 }
+
+.luas-segitiga-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.luas-segitiga-img{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://asset.kompas.com/crops/ZwOr6ZrEtAtid5uZmYhDFijYPa4=/175x161:1573x1094/750x500/data/photo/2022/03/09/62288763c6d64.png);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.hitung-luas-segitiga-form-header{
+    text-align: center;
+}
+
+.input-wrapper{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-wrapper>input{
+    width: 75%;
+}
+
+input[type=number], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
