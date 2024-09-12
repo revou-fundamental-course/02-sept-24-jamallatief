@@ -34,26 +34,19 @@
                         </ul>
                         </ol>
                 </article>
-    
-                <form>
-                    <header>
-                       <h1 class="hitung-luas-segitiga-form-header">Hitung Luas Segitiga</h1> 
-                    </header>
-    
-                    <div class="input-wrapper">
-                        <label for="panjang-alas">panjang alas :</label>
-                        <input id="panjang-alas" type="number" />
-                    </div>
-                    <div class="input-wrapper">
-                        <label for="tinggi">tinggi :</label>
-                        <input id="tinggi" type="number" />
-                    </div>
-    
-                    <p id="result">Hasil Perhitungan</p>
-    
-                    <button onclick="validateluas" type="button">Hitung</button>
+                <form id="triangleForm">
+                    <br><label for="base">Alas (cm):</label>
+                    <input type="number" id="base" required></br>
+              
+                    <br><label for="height">Tinggi (cm):</label>
+                    <input type="number" id="height" required></br>
+              
+                    <button type="button" onclick="calculateArea()">Hitung Luas</button>
                     <button onclick="">Reset</button>
-                </form>
+                  </form>
+                  <div id="hasil"></div>
+                </div>
+              
             </aside>
 
             <aside>
@@ -70,26 +63,20 @@
                         </ul>
                         </ol>
                 </article>
-    
-                <form>
-                    <header>
-                       <h1 class="hitung-luas-segitiga-form-header">Hitung Keliling Segitiga</h1> 
-                    </header>
-    
-                    <div class="input-wrapper">
-                        <label for="panjang-alas">panjang alas :</label>
-                        <input id="panjang-alas-2" type="number" />
-                    </div>
-                    <div class="input-wrapper">
-                        <label for="tinggi">tinggi :</label>
-                        <input id="tinggi-2" type="number" />
-                    </div>
-    
-                    <p id="result">Hasil Perhitungan</p>
-    
-                    <button onclick="">Hitung</button>
+                <form id="triangleForm">
+                    <br><label for="side1">Sisi 1 (cm):</label>
+                    <input type="number" id="side1" required></br>
+              
+                    <br><label for="side2">Sisi 2 (cm):</label>
+                    <input type="number" id="side2" required></br>
+              
+                    <br><label for="side3">Sisi 3 (cm):</label>
+                    <input type="number" id="side3" required></br>
+              
+                    <button type="button" onclick="calculatePerimeter()">Hitung Keliling</button>
                     <button onclick="">Reset</button>
-                </form>
+                  </form>
+                  <div id="result"></div>
             </aside>
         </section>
 
@@ -116,26 +103,17 @@
                         </ul>
                         </ol>
                 </article>
-    
-                <form>
-                    <header>
-                       <h1 class="hitung-luas-segitiga-form-header">Hitung Luas Jajar Genjang</h1> 
-                    </header>
-    
-                    <div class="input-wrapper">
-                        <label for="panjang-alas">panjang alas :</label>
-                        <input id="panjang-alas" type="number" />
-                    </div>
-                    <div class="input-wrapper">
-                        <label for="tinggi">tinggi :</label>
-                        <input id="tinggi" type="number" />
-                    </div>
-    
-                    <p id="result">Hasil Perhitungan</p>
-    
-                    <button onclick="">Hitung</button>
+                <form id="triangleForm">
+                    <br><label for="base1">Alas (cm):</label>
+                    <input type="number" id="base1" required></br>
+              
+                    <br><label for="height1">Tinggi (cm):</label>
+                    <input type="number" id="height1" required></br>
+              
+                    <button type="button" onclick="calculatJajar()">Hitung Luas</button>
                     <button onclick="">Reset</button>
-                </form>
+                  </form>
+                  <div id="result1"></div>
             </aside>
 
             <aside>
@@ -153,25 +131,16 @@
                         </ol>
                 </article>
     
-                <form>
-                    <header>
-                       <h1 class="hitung-luas-segitiga-form-header">Hitung Keliling Jajar Genjang</h1> 
-                    </header>
-    
-                    <div class="input-wrapper">
-                        <label for="panjang-alas">panjang sisi :</label>
-                        <input id="panjang-alas" type="number" />
-                    </div>
-                    <div class="input-wrapper">
-                        <label for="tinggi">tinggi :</label>
-                        <input id="tinggi" type="number" />
-                    </div>
-    
-                    <p id="result">Hasil Perhitungan</p>
-    
-                    <button onclick="">Hitung</button>
-                    <button onclick="">Reset</button>
-                </form>
+                <form id="triangleForm">
+                    <br><label for="base3">Alas (cm):</label>
+                    <input type="number" id="base3" required></br>
+              
+                    <br><label for="side4">Sisi Miring (cm):</label>
+                    <input type="number" id="side4" required></br>
+              
+                    <button type="button" onclick="calculatePerimeter2()">Hitung Keliling</button>
+                  </form>
+                  <div id="result2"></div>
             </aside>
         </section>
 
