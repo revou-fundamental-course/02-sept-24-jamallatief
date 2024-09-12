@@ -19,39 +19,164 @@
             <button href="#" type="buttom" class="selection-btn aquamarine-color">Jajar Genjang</button>
         </section>
 
-        <section>
-            <header>
-                <h1 class="luas-segitiga-header">Luas Segitiga</h1>
-            </header>
-
-            <article class="luas-segitiga-content">
-                <div class="luas-segitiga-img"></div>
-                <p>Rumus Luas Segitiga</p>
-                    <ol>
-                    <ul>
-                        <li>setengah dikali alas dikali tinggi, atau A = 1/2 × b × t</li>
-                    </ul>
-                    </ol>
-            </article>
-
-            <form>
+        <section class="main-content">
+            <aside>
                 <header>
-                   <h1 class="hitung-luas-segitiga-form-header">Hitung Luas Segitiga</h1> 
+                    <h1 class="luas-segitiga-header">Luas Segitiga</h1>
                 </header>
+    
+                <article class="luas-segitiga-content">
+                    <div class="luas-segitiga-img"></div>
+                    <p>Rumus Luas Segitiga</p>
+                        <ol>
+                        <ul>
+                            <li>A = 1/2 × b × t</li>
+                        </ul>
+                        </ol>
+                </article>
+    
+                <form>
+                    <header>
+                       <h1 class="hitung-luas-segitiga-form-header">Hitung Luas Segitiga</h1> 
+                    </header>
+    
+                    <div class="input-wrapper">
+                        <label for="panjang-alas">panjang alas :</label>
+                        <input id="panjang-alas" type="number" />
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="tinggi">tinggi :</label>
+                        <input id="tinggi" type="number" />
+                    </div>
+    
+                    <p id="result">Hasil Perhitungan</p>
+    
+                    <button onclick="validateluas" type="button">Hitung</button>
+                    <button onclick="">Reset</button>
+                </form>
+            </aside>
 
-                <div class="input-wrapper">
-                    <label for="panjang-alas">panjang alas :</label>
-                    <input id="panjang-alas" type="number" />
-                </div>
-                <div class="input-wrapper">
-                    <label for="tinggi">tinggi :</label>
-                    <input id="tinggi" type="number" />
-                </div>
-
-                <p id="result">Hasil Perhitungan</p>
-            </form>
+            <aside>
+                <header>
+                    <h1 class="luas-segitiga-header">Keliling Segitiga</h1>
+                </header>
+    
+                <article class="luas-segitiga-content">
+                    <div class="luas-segitiga-img"></div>
+                    <p>Rumus Keliling Segitiga</p>
+                        <ol>
+                        <ul>
+                            <li>a + b + c</li>
+                        </ul>
+                        </ol>
+                </article>
+    
+                <form>
+                    <header>
+                       <h1 class="hitung-luas-segitiga-form-header">Hitung Keliling Segitiga</h1> 
+                    </header>
+    
+                    <div class="input-wrapper">
+                        <label for="panjang-alas">panjang alas :</label>
+                        <input id="panjang-alas-2" type="number" />
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="tinggi">tinggi :</label>
+                        <input id="tinggi-2" type="number" />
+                    </div>
+    
+                    <p id="result">Hasil Perhitungan</p>
+    
+                    <button onclick="">Hitung</button>
+                    <button onclick="">Reset</button>
+                </form>
+            </aside>
         </section>
 
     </main>
+
+    <main>
+        <section class="selection-conten">
+            <button href="#" type="butom" class="selection-btn aqua-color-jjr">Segitiga</button>
+            <button href="#" type="buttom" class="selection-btn aquamarine-color-jjr">Jajar Genjang</button>
+        </section>
+
+        <section class="main-content">
+            <aside>
+                <header>
+                    <h1 class="luas-segitiga-header">Luas Jajar Genjang</h1>
+                </header>
+    
+                <article class="luas-segitiga-content">
+                    <div class="luas-jajar-genjang-img"></div>
+                    <p>Rumus Luas Jajar Genjang</p>
+                        <ol>
+                        <ul>
+                            <li>alas × tinggi</li>
+                        </ul>
+                        </ol>
+                </article>
+    
+                <form>
+                    <header>
+                       <h1 class="hitung-luas-segitiga-form-header">Hitung Luas Jajar Genjang</h1> 
+                    </header>
+    
+                    <div class="input-wrapper">
+                        <label for="panjang-alas">panjang alas :</label>
+                        <input id="panjang-alas" type="number" />
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="tinggi">tinggi :</label>
+                        <input id="tinggi" type="number" />
+                    </div>
+    
+                    <p id="result">Hasil Perhitungan</p>
+    
+                    <button onclick="">Hitung</button>
+                    <button onclick="">Reset</button>
+                </form>
+            </aside>
+
+            <aside>
+                <header>
+                    <h1 class="luas-segitiga-header">Keliling Jajar Genjang</h1>
+                </header>
+    
+                <article class="luas-segitiga-content">
+                    <div class="luas-jajar-genjang-img"></div>
+                    <p>Rumus Keliling Jajar Genjang</p>
+                        <ol>
+                        <ul>
+                            <li>p + q dikali 2</li>
+                        </ul>
+                        </ol>
+                </article>
+    
+                <form>
+                    <header>
+                       <h1 class="hitung-luas-segitiga-form-header">Hitung Keliling Jajar Genjang</h1> 
+                    </header>
+    
+                    <div class="input-wrapper">
+                        <label for="panjang-alas">panjang sisi :</label>
+                        <input id="panjang-alas" type="number" />
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="tinggi">tinggi :</label>
+                        <input id="tinggi" type="number" />
+                    </div>
+    
+                    <p id="result">Hasil Perhitungan</p>
+    
+                    <button onclick="">Hitung</button>
+                    <button onclick="">Reset</button>
+                </form>
+            </aside>
+        </section>
+
+    </main>
+
+    <script src="js\script.js"></script>
 </body>
 </html>
